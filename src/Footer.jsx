@@ -13,7 +13,11 @@ function Footer(){
           <LunchDiningIcon style={{fontSize:"3rem", margin:"0.7rem"}}/>
           <h3><i>logoipsum</i></h3>
         </div>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consequuntur amet culpa cum itaque neque.</p>
+        <div id="text">
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+        <p>Incidunt consequuntur amet culpa cum itaque neque.</p>
+        </div>
         <div id="contents">
         <ul>
             <li>About</li>
