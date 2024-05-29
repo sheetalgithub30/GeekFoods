@@ -1,12 +1,13 @@
 #card{
     margin:4rem 2rem;
    display: flex;
+   flex-wrap: wrap;
    /* gap: 0; */
    /* position: relative; */
 }
 #card #content{
     background-color: rgb(226, 241, 241);
-    /* width: 47vw; */
+    width: 45rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,8 +16,8 @@
     /* position: absolute; */
 }
 #card #img{
-    /* width: 47vw; */
-    padding:3rem 1rem;
+    width: 45rem;
+    padding:3rem 2rem;
     /* left:10rem; */
     /* position: relative; */
 
@@ -34,10 +35,14 @@
     font-size: 1rem;
 }
 #card button{
-    background-color: rgb(35, 35, 226);
+    background-color: rgb(56, 56, 247);
     color: white;
     font-weight: 700;
     font-size: 1rem;
     padding: 0.7rem 2rem;
     border-radius: 10px;
+}
+
+#card button:hover{
+    background-color: blue;
 }
