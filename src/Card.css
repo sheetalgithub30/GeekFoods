@@ -2,6 +2,7 @@
     margin:4rem 2rem;
    display: flex;
    flex-wrap: wrap;
+   justify-content: center;
    /* gap: 0; */
    /* position: relative; */
 }
@@ -35,7 +36,7 @@
     font-size: 1rem;
 }
 #card button{
-    background-color: rgb(56, 56, 247);
+    background-color: rgb(106, 106, 245);
     color: white;
     font-weight: 700;
     font-size: 1rem;

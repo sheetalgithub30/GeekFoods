@@ -1,4 +1,5 @@
 import './Navbar.css'
+import MenuIcon from '@mui/icons-material/Menu';
 
 function Navbar() {
   return (
@@ -17,6 +18,9 @@ function Navbar() {
             </ul>
          </div>
           <button>Get started</button>
+          <div id="hamburger">
+          <MenuIcon/>
+         </div>
     </div>
   )
 }

@@ -23,3 +23,10 @@
     display: flex;
     margin: 1rem;
 }
+
+@media screen and (max-width:718px) {
+    #grid {
+        display: flex;
+        flex-direction: column;
+      }
+}
