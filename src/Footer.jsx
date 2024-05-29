@@ -18,7 +18,6 @@ function Footer(){
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
         <p>Incidunt consequuntur amet culpa cum itaque neque.</p>
         </div>
-        <div id="contents">
         <ul>
             <li>About</li>
             <li>Careers</li>
@@ -27,16 +26,13 @@ function Footer(){
             <li>Projects</li>
             <li>Blog</li>
         </ul>
-        </div>
-        <div id="icons">
-            <ul>
+            <ul id="icons">
             <li><FacebookRoundedIcon/></li>
                 <li><InstagramIcon/></li>
                 <li><TwitterIcon/></li>
                 <li><GitHubIcon/></li>
                 <li><LanguageIcon/></li>
             </ul>
-        </div>
     </footer>
   );
 }
